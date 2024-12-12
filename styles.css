@@ -1,0 +1,82 @@
+/* Global Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Background Styling */
+body {
+    background: linear-gradient(120deg, #391163, #366081);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+/* Chatbot Iframe Styling */
+.chatbot-iframe {
+    width: 90%;
+    height: 80vh;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 14px;
+}
+
+/* Footer Text */
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chatbot-iframe {
+        height: 70vh;
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+}
